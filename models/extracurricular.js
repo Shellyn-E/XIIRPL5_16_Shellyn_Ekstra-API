@@ -6,7 +6,7 @@ const ExtracurricularSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  coach: {
+  mentor: {
     type: String,
     required: true,
   },
